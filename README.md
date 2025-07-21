@@ -1,10 +1,51 @@
-Create a sample backend application for a JSON Schema Builder using ReactJS and preferably  ShadCN, optionally incorporating TypeScript if possible. This task assumes a basic understanding of JavaScript, along with some knowledge of ReactJS and AntD/ShadCN. The objective is to develop a Schema Building experience, as demonstrated in the provided video, utilising React-Hook Forms for the implementation.
-Task Description
-Build a component that allows users to create an interface to define a JSON schema by adding fields dynamically. Users should be able to edit the name/key of a field, add more fields, delete a field, and add nested fields for the 'Nested' type. The supported types are String, Number, and Nested, with the ability to have recursive nested rows.
-Key Tasks:
-Develop a component with the following functionalities:
-Edit the name/key of a field
-Add more fields dynamically
-Delete a field
-Add nested fields for the 'Nested' type (recursively)
-Include a JSON tab that displays the real-time JSON preview of the components. Assume default values for String and Number type rows, as demonstrated in the provided Image
+# 🧩 JSON Schema Builder
+
+A dynamic and recursive JSON Schema Builder built using **ReactJS**, **React Hook Form**, and **ShadCN UI**. This project was created as part of the **HROne Frontend Intern Hiring Task**, enabling users to build complex JSON schemas with a clean and intuitive interface.
+
+---
+
+## 🎯 Project Objective
+
+This application allows users to:
+
+- Dynamically add and remove fields
+- Edit field names and select field types (`String`, `Number`, `Nested`)
+- Nest fields recursively under the `Nested` type
+- Visualize the resulting JSON schema in real time
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool / Library       | Purpose                             |
+|----------------------|-------------------------------------|
+| React.js             | Frontend framework                  |
+| TypeScript (optional)| Type safety and developer ergonomics|
+| React Hook Form      | Form state management               |
+| ShadCN UI            | Modern UI components (Tailwind CSS) |
+| Vite                 | Fast and optimized development setup|
+
+---
+
+## ✨ Key Features
+
+✅ **Dynamic Field Management**  
+- Add, edit, and delete form fields  
+- Choose field type (`String`, `Number`, or `Nested`)  
+
+✅ **Recursive Nesting**  
+- Nest fields inside a `Nested` type  
+- Supports complex and deeply nested structures  
+
+✅ **Real-Time JSON Preview**  
+- Automatically updates JSON output as the form changes  
+- Helpful for debugging or exporting schema directly  
+
+✅ **Minimal and Responsive UI**  
+- Built with Tailwind CSS and ShadCN  
+- Clean, mobile-friendly layout  
+
+---
+
+## 📂 Project Structure
+
